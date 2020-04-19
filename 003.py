@@ -14,7 +14,7 @@ def prafaktorji(n):
     """ Poišče prafaktorje števila n. """
 
     prafaktorji = []
-    for i in range(2, round(n**(1/2) + 1)):
+    for i in range(2, round(n**(1/2) + 2)):
         if prastevilo(i):
             if n % i == 0:
                 prafaktorji.append(i)
